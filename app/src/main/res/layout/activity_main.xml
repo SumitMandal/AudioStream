@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.developertwo.audiostream.MainActivity">
+
+    <Button
+        android:id="@+id/play_from_raw"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:onClick="playMusicFromRaw"
+        android:text="Play from Raw" />
+
+    <Button
+        android:id="@+id/play_from_uri"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:onClick="playMusicFromURI"
+        android:text="Play from URI" />
+
+    <Button
+        android:id="@+id/play_from_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:onClick="playMusicFromURL"
+        android:text="Play from URL" />
+
+
+</LinearLayout>
